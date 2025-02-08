@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>shopping</title>
+    <style>
+        header{
+            background-color: red;
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            down:10pxsds    ; 
+           
+        }
+        header nav{
+            padding: 3px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        header nav a{
+            all: unset;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: white ;
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+        }
+        header nav a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        .a{
+            
+            position: fixed;
+            color: black ;
+            size: 40px;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            position: relative;
+            left: -300px;
+        }
+        h2{
+            height: 50px;
+            width: 100%;
+            position: relative;
+            animation: move 5s infinite;
+            
+        }
+        @keyframes  move {
+            0%{
+                 left: 0;
+            }
+            50%{
+                left: 500px;               
+            }
+            100%{ 
+                left:100%;     
+            }
+        }
+        
+        .name{
+            position: relative;
+            left: 400px;
+            top: -200px;
+        }
+        .Price{
+            position: relative;
+            left: 400px;
+            top: -150px;
+        }
+        .b{
+            position: relative;
+            left: 400px;
+            top: -110px;
+            background-color: rgb(255, 67, 67);
+            border-radius: 20%;
+        }
+        footer{
+            background-color: red;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0%;
+        }
+        footer p{
+            margin: 0;
+        }
+        footer a{
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+        }
+      footer a:hover{
+        color: aliceblue;
+        text-decoration: underline;
+      }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1 class="a">SMARTHUB</h1><br><br><br>
+        <nav>
+          
+            
+                <a href="1st.html">home</a>
+                <a href="https://www.amazon.in/s?k=laptops">shop</a>
+                <a href="About.html">About</a>
+                <a href="Contact.html">Contact</a>
+
+                
+        </nav>
+    </header>
+    <hr><br><br>
+    <main>
+        <h2> <big>2025 best deals!</big></h2>
+      <hr>  
+        <div>
+            <div><img class="s-image" src="https://m.media-amazon.com/images/I/51Rdb1PIcZL._AC_UY218_.jpg" srcset="https://m.media-amazon.com/images/I/51Rdb1PIcZL._AC_UY218_.jpg 1x, https://m.media-amazon.com/images/I/51Rdb1PIcZL._AC_UY327_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51Rdb1PIcZL._AC_UY436_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51Rdb1PIcZL._AC_UY545_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51Rdb1PIcZL._AC_UY654_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Dell Vostro 15 3520 Laptop - 15.6 inch (39.62cm) FHD Display, Intel Core i5-1235U, 8 GB RAM, 512 GB SSD, Ti..." aria-hidden="true" data-image-index="2" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"></div>
+            <div class="name">Dell Vostro 15 3520 Laptop - 15.6 inch (39.62cm) FHD Display, Intel Core i5-1235U, 8 GB RAM, 512 GB SSD,<br> Titan Grey, 1.69Kg, Ideal for Business Users, Perfect for Productivity and Collaboration</div>
+            <div class="Price">Price:<br><big><b>$199.99</b>  </big></div>
+            <button type="submit" class="b">Buy Now</button>
+        </div><hr>
+        <div>
+            <div><img src="https://th.bing.com/th/id/OIP.Sy4SCTn_ff98sGzVI-X3jwAAAA?rs=1&pid=ImgDetMain" alt="lenovo" width="350px"></div>
+            <div class="name">Lenovo V14 G3 Intel Core i5 12th Gen 1235U /16GB/512GB SSD/Intel UHD Graphics/Windows 11/ <br> Thin and Light Business Laptop/14.0" FHD Display/Iron Grey/1.57 kg</div>
+            <div class="Price">Price:<br><big><b>$259.99</b>  </big></div>
+            <button type="submit" class="b">Buy Now</button>
+        </div><hr>
+        <div>
+            <div><img src="https://th.bing.com/th/id/OIP.uKTQqA28RR47F9E054w_sQAAAA?rs=1&pid=ImgDetMain" alt="hp Laptop" width="350px"></div>
+            <div class="name">HP Victus, AMD Ryzen 5 5600H, NVIDIA RTX 3050, 16GB DDR4, 512GB SSD (Win11, Office21, Blue, 2.37kg) 144Hz, <br> 9MS, IPS, 15.6-inch(39.6cm) Gaming Laptop, Backlit kb, Enhanced Cooling, fb0106AX/Fb0112AX</div>
+            <div class="Price">Price:<br><big><b>$289.99</b>  </big></div>
+            <button type="submit" class="b">Buy Now</button>
+        </div><hr>
+        <div>
+            <div><img src="https://m.media-amazon.com/images/I/71YpUx0XFdL._AC_SL1500_.jpg" alt="asus" width="350px"></div>
+            <div class="name">ASUS Vivobook Go 14, Thin and Light Laptop, AMD Ryzen 3 7320U, 14" (35.56 cm) FHD, (8 GB RAM/512GB SSD/ <br>Windows 11/Office 2021/42WHr /Black/1.38 kg), E1404FA-NK325WS</div>
+            <div class="Price">Price:<br><big><b>$289.99</b>  </big></div>
+            <button type="submit" class="b">Buy Now</button>
+        </div><hr>
+    </main>
+    <footer>
+        <p>&copy;2025 your vishal | <a href="privacy.html">Privacy Policy </a>| <a href="term.html">Term & Conditions</a></p>
+    </footer>
+
+</body>
+</html>
